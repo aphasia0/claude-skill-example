@@ -1,0 +1,6 @@
+{
+  "name": "search-devops-doc",
+  "displayName": "Search DevOps Docs",
+  "version": "1.0.0",
+  "description": "Cerca nella documentazione Backstage (backstage/docs). Clona il repo, indicizza i file Markdown e fornisce ricerca full-text con contesto."
+}

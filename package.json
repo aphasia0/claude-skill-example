@@ -1,0 +1,36 @@
+{
+  "name": "search-devops-doc",
+  "version": "1.3.0",
+  "description": "Plugin per cercare nella documentazione Backstage (docs/) tramite AI agent. Supporta Antigravity, Claude Code e OpenCode.",
+  "main": "scripts/search.mjs",
+  "bin": {
+    "search-devops-doc-install": "scripts/install.mjs"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "search": "node scripts/search.mjs",
+    "verify": "node scripts/install.mjs --verify",
+    "postinstall": "node scripts/install.mjs"
+  },
+  "keywords": [
+    "backstage",
+    "documentation",
+    "devops",
+    "search",
+    "claude",
+    "claude-code",
+    "antigravity",
+    "opencode",
+    "plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "plugin.json",
+    "skills/",
+    "scripts/",
+    "claude-code/",
+    "opencode/",
+    "README.md"
+  ]
+}
